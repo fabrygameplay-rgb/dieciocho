@@ -27,7 +27,7 @@ nav {
     border-bottom: peru dashed 5px;
 }
 
-nav #img1, #img2 {
+#img1, #img2 {
     width: 20px;
     height: 40px;
     margin-top: 10px;
