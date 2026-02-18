@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header h1 {
+    font-family: system-ui;
+    text-align: center;
+    text-decoration: underline dashed;
+    margin: 20px 0;
+    color:slateblue;
+}
+
+body {
+    background-color: white;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    width: fit-content;
+    text-align: left;
+    margin-left: 22px;
+    border-bottom: peru dashed 5px;
+}
+
+nav img {
+    margin-top: 10px;
+    max-width: 100%;
+    width: 500px;
+    height: 160px;
+    border: dashed 2px peru;
+}
+
+#img1 {
+    margin-right: 20px;
+}
+
+#img2 {
+    margin-right: 30px;
+}
+
+.difficulty {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.difContainer {
+    width: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.difContainer button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: system-ui;
+    color: limegreen;
+    cursor: pointer;
+    padding: 0;
+}
+
+#modeButtons button {
+    margin: 10px 5px 0px 20px;
+    padding: 10px;
+    background-color: pink;
+    color:crimson;
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+#modeButtons button:hover {
+    margin: 10px 5px 0px 20px;
+    padding: 10px;
+    background-color:lightpink;
+    color:crimson;
+    font-family: system-ui;
+    font-weight: bold;
+    cursor: pointer;
+}
+.difContainer button:hover {
+    color: chocolate;
+    text-shadow: black 0px 1px 0px;
+}
+
+.score {
+    display: flex;
+    gap: 30px;
+    font-family: system-ui;
+    color: cornflowerblue;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.score h2 {
+    margin: 0;
+    min-width: 100px;
+}
+
+nav span {
+    color: khaki;
+    -webkit-text-stroke: black 0.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#chess-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+#board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#letters {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 50px;
+    margin-bottom: 5px;
+}
+
+#numbers {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+#designButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+#designButtons button {
+    margin: 10px 5px 0px 20px;
+    padding: 10px;
+    background-color: lightblue;
+    color: navy;
+    font-family: system-ui;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#designButtons button:hover {
+    background-color: deepskyblue;
+}
+
+
+#board {
+    display: flex;
+    flex-direction: column;
+    border: double 3px orange;
+    border-radius: 2px;
+}
+
+.creamBox {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.creamBox img {
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer p {
+    color: black;
+    background-color: silver;
+    font-family: arial;
+    font-style: italic;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 40px;
+}
+
+@media (max-width: 1024px) {
+
+    nav {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    nav img {
+        width: 350px;
+        height: auto;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 5px;
+    }
+
+    nav img {
+        width: 90%;
+        height: auto;
+    }
+
+    .difficulty {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .score {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    #modeButtons button,
+    #designButtons button {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .creamBox {
+        width: 45px;
+        height: 45px;
+    }
+
+    #letters {
+        gap: 30px;
+        font-size: 14px;
+    }
+
+    #numbers {
+        gap: 30px;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .creamBox {
+        width: 35px;
+        height: 35px;
+    }
+
+    #letters {
+        gap: 18px;
+        font-size: 12px;
+    }
+
+    #numbers {
+        gap: 22px;
+        font-size: 12px;
+    }
+
+}
