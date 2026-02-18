@@ -21,27 +21,17 @@ body {
 nav {
     display: flex;
     align-items: flex-start;
-    gap: 15px;
-    width: fit-content;
-    text-align: left;
-    margin-left: 22px;
+    gap: 20px;
+    width: 100%;
+    padding: 0 40px;
     border-bottom: peru dashed 5px;
 }
 
 nav img {
+    width: clamp(250px, 35vw, 450px);
+    height: auto;
     margin-top: 10px;
-    max-width: 100%;
-    width: 400px;
-    height: 160px;
     border: dashed 2px peru;
-}
-
-#img1 {
-    margin-right: 20px;
-}
-
-#img2 {
-    margin-right: 30px;
 }
 
 .difficulty {
