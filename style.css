@@ -28,7 +28,7 @@ nav {
 }
 
 nav img {
-    width: clamp(250px, 35vw, 450px);
+    width: 250px;
     height: auto;
     margin-top: 10px;
     border: dashed 2px peru;
