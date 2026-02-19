@@ -27,10 +27,11 @@ nav {
     border-bottom: peru dashed 5px;
 }
 
-#img1, #img2 {
-    width: 20px;
-    height: 40px;
-    margin-top: 10px;
+nav img {
+    width: 360px;
+    max-width: 100%;
+    height: auto;
+    display: block;
     border: dashed 2px peru;
 }
 
