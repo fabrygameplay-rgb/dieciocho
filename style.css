@@ -111,6 +111,7 @@ main {
 
 #chess-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     gap: 5px;
@@ -204,96 +205,67 @@ footer p {
     margin-top: 40px;
 }
 
-@media (max-width: 1024px) {
-
-    nav {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    nav img {
-        width: 350px;
-        height: auto;
-    }
-
-    main {
-        flex-direction: column;
-        align-items: center;
-    }
-
-}
-
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
     header h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     nav {
         flex-direction: column;
         align-items: center;
-        margin-left: 0;
+        padding: 5px;
         gap: 5px;
     }
 
     nav img {
-        width: 90%;
-        height: auto;
+        width: 200px;
     }
 
-    .difficulty {
-        flex-direction: column;
-        align-items: center;
+    .difContainer {
+        width: 10px;
+        gap: 5px;
+        margin-right: 110px;  
     }
 
     .score {
-        gap: 10px;
-        justify-content: center;
+        font-size: 10px;
+        width: 5px;
+        margin-right: 180px;
+
     }
-
-    #modeButtons button,
-    #designButtons button {
-        width: 90%;
-        margin-left: 0;
-    }
-
-    main {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .creamBox {
-        width: 45px;
-        height: 45px;
-    }
-
-    #letters {
-        gap: 30px;
-        font-size: 14px;
-    }
-
-    #numbers {
-        gap: 30px;
-        font-size: 14px;
-    }
-
-}
-
-@media (max-width: 480px) {
-
-    .creamBox {
-        width: 35px;
-        height: 35px;
-    }
-
-    #letters {
-        gap: 18px;
+    footer p {
         font-size: 12px;
+    }
+
+    .creamBox {
+        width: 37px;
+        height: 37px;
+    }
+
+    #letters {
+        gap: 30px;
+        font-size: 14px;
     }
 
     #numbers {
         gap: 22px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
+    #modeButtons button,
+    #designButtons button,
+    .difContainer button {
+        font-size: 16px;
+        padding: 6px;
+        margin: 6px;
+    }
+
+    #modeButtons button:hover,
+    #designButtons button:hover,
+    .difContainer button:hover {
+        font-size: 16px;
+        padding: 6px;
+        margin: 6px;
+    }
 }
