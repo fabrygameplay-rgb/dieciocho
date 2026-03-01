@@ -205,6 +205,55 @@ footer p {
     margin-top: 40px;
 }
 
+@media (min-width: 481px) and (max-width: 1024px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        padding: 0 20px;
+        gap: 15px;
+    }
+
+    nav img {
+        width: 280px;
+    }
+
+    .creamBox {
+        width: 50px;
+        height: 50px;
+    }
+
+    #letters {
+        gap: 40px;
+        font-size: 16px;
+    }
+
+    #numbers {
+        gap: 34px;
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    #modeButtons button,
+    #designButtons button,
+    .difContainer button {
+        font-size: 18px;
+        padding: 8px;
+        margin: 8px;
+    }
+
+    .score {
+        font-size: 14px;
+        gap: 20px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 480px) {
 
     header h1 {
@@ -249,7 +298,7 @@ footer p {
     }
 
     #numbers {
-        gap: 22px;
+        gap: 23px;
         font-size: 14px;
         margin-top: 6px;
     }
