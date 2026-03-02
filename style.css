@@ -370,4 +370,20 @@ footer p {
         font-size: 16px;
         margin-top: 12px;
     }
+
+    nav img {
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1;
+    }
 }
