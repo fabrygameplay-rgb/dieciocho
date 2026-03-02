@@ -320,6 +320,17 @@ footer p {
     }
 }
 
+@media (max-width: 480) and (orientation: landscape) {
+        nav img {
+        width: 200px;
+        display: block;
+    }
+
+    nav img:first-of-type {
+        flex-basis: 100%;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
     nav {
@@ -330,6 +341,7 @@ footer p {
     }
 
     nav img {
+        align-items: column;
         width: 260px;
     }
 
