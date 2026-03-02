@@ -333,11 +333,6 @@ footer p {
         width: 260px;
     }
 
-    main {
-        flex-direction: column;
-        align-items: center;
-    }
-
     #chess-container {
         flex-direction: column;
         align-items: center;
