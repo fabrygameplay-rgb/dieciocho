@@ -319,32 +319,32 @@ footer p {
         margin: 6px;
     }
 }
+    
+@media (max-width: 480px) and (orientation: landscape) {
 
-@media (max-width: 480) and (orientation: landscape) {
-        nav img {
-        width: 200px;
-        display: block;
-        flex-direction: column;
+    nav {
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
 
-    nav img:first-of-type {
-        flex-basis: 100%;
+    nav img {
+        width: 200px;
+        flex: 0 0 100%;
     }
 
     .creamBox {
-        width: 34px;
-        height: 34px;
+        width: 32px;
+        height: 32px;
     }
 
     #letters {
-        gap: 26px;
+        gap: 24px;
         font-size: 10px;
     }
 
     #numbers {
-        gap: 19px;
+        gap: 18px;
         font-size: 10px;
-        margin-top: 6px;
     }
 }
 
