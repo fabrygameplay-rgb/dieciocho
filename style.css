@@ -256,7 +256,7 @@ footer p {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (orientation: portrait) {
 
     header h1 {
         font-size: 20px;
@@ -271,6 +271,11 @@ footer p {
 
     nav img {
         width: 200px;
+    }
+
+    main {
+        justify-content: flex-start;
+        padding-left: 10px;
     }
 
     .difContainer {
