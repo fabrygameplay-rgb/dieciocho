@@ -255,7 +255,8 @@ footer p {
         gap: 22px;
         font-size: 14px;
         margin-top: -4px;
-        padding-left: 10px;
+        padding-left: 0px;
+        margin-left: 5px;
     }
 
     #letters {
