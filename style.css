@@ -305,9 +305,14 @@ footer p {
     }
 
     #numbers {
-        gap: 20px;
+        gap: 22px;
         font-size: 14px;
         margin-top: 6px;
+        padding-left: 0px;
+    }
+
+    #chess-container {
+        gap: 2px;
     }
 
     #modeButtons button,
