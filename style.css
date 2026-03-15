@@ -226,7 +226,7 @@ footer p {
 
     main {
         justify-content: flex-start;
-        padding-left: 0px;
+        padding-left: 10px;
         padding-right: 0px;
     }
 
@@ -256,7 +256,6 @@ footer p {
         font-size: 14px;
         margin-top: -4px;
         padding-left: 0px;
-        margin-left: 5px;
     }
 
     #letters {
