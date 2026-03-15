@@ -93,6 +93,10 @@ nav img {
 .score h2 {
     margin: 0;
     min-width: 100px;
+    -webkit-text-stroke: 0.4px rgba(0,0,0,0.8);
+    text-shadow:
+        0 0 1px rgba(0,0,0,0.7),
+        0 1px 1px rgba(0,0,0,0.4);
 }
 
 nav span {
@@ -331,7 +335,7 @@ footer p {
     #numbers {
         gap: 20px;
         font-size: 16px;
-        margin-top: -2px;
+        margin-top: -4px;
         padding-bottom: 2px;
     }
 
