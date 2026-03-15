@@ -275,7 +275,7 @@ footer p {
 
     main {
         justify-content: flex-start;
-        padding-left: 0px;
+        padding-left: 10px;
     }
 
     .difContainer {
@@ -309,6 +309,7 @@ footer p {
         font-size: 14px;
         margin-top: 6px;
         padding-left: 0px;
+        padding-bottom: 5px;
     }
 
     #chess-container {
