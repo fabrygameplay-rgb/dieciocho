@@ -288,7 +288,7 @@ footer p {
     }
 }
     
-@media (max-width: 480px) and (orientation: landscape) {
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
 
     nav {
         flex-wrap: wrap;
@@ -300,9 +300,9 @@ footer p {
         flex: 0 0 100%;
     }
 
-    nav div:nth-child(2),
-    nav div:nth-child(3) {
-        flex-basis: 100%;
+    #img1, #img2 {
+        display: block;
+        width: 100%;
     }
 
     .creamBox {
