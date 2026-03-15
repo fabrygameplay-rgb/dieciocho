@@ -291,34 +291,27 @@ footer p {
 @media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
 
     nav {
+        display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
     }
 
+    nav > div:first-child {
+        flex: 1 1 60%;
+    }
+
+    nav > div:nth-child(2) {
+        flex: 0 0 40%;
+    }
+
+    nav > div:nth-child(3) {
+        flex: 0 0 40%;
+    }
+
     nav img {
         width: 200px;
-        flex: 0 0 100%;
     }
 
-    #img1, #img2 {
-        display: block;
-        width: 100%;
-    }
-
-    .creamBox {
-        width: 32px;
-        height: 32px;
-    }
-
-    #letters {
-        gap: 24px;
-        font-size: 10px;
-    }
-
-    #numbers {
-        gap: 18px;
-        font-size: 10px;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
