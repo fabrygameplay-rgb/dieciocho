@@ -227,6 +227,7 @@ footer p {
     main {
         justify-content: flex-start;
         padding-left: 0px;
+        padding-right: 5px;
     }
 
     .difContainer {
@@ -254,6 +255,7 @@ footer p {
         gap: 22px;
         font-size: 14px;
         margin-top: 0px;
+        padding-bottom: 5px;
     }
 
     #letters {
