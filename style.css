@@ -305,7 +305,7 @@ footer p {
     }
 
     #numbers {
-        gap: 23px;
+        gap: 20px;
         font-size: 14px;
         margin-top: 6px;
     }
@@ -327,7 +327,7 @@ footer p {
     }
 
     #designButtons {
-        padding-right: 10px;
+        padding-right: 50px;
     }
 }
     
