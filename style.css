@@ -295,7 +295,7 @@ footer p {
         grid-template-columns: 1fr 200px;
         grid-template-rows:auto auto auto;
         align-items:start;
-        gap:10px 15px;
+        gap:10px 6px;
     }
 
     nav > div:first-child{
@@ -329,9 +329,13 @@ footer p {
     }
 
     #numbers {
-        gap: 28px;
+        gap: 20px;
         font-size: 16px;
         margin-top: 12px;
+    }
+
+    .difficulty, .score, .difContainer {
+        font-size: 12px;
     }
 
 }
